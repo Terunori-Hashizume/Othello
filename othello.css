@@ -1,0 +1,59 @@
+header {
+  font-size: 50px;
+  font-family: serif;
+  text-align: center;
+  margin: 10px;
+}
+
+#othelloBoard {
+  border: solid 1px black;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+td {
+  background-color: green;
+  width: 66px;
+  height: 66px;
+}
+
+.whiteDisc, .blackDisc {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  margin: 3px 3px 3px 3px;
+}
+
+.whiteDisc {
+  background-color: #ffffff;
+}
+
+.blackDisc {
+  background-color: #000000;
+}
+
+#scoreboard {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.numOfDiscs {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+#numOfWhite {
+  float: left;
+}
+
+#numOfBlack {
+  float: right;
+}
+
+#whichTurn {
+  width: 900px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px auto;
+}
