@@ -101,7 +101,7 @@ OthelloGame.prototype = {
     var cell = document.getElementById('cell-' + y + '-' + x);
     //置ける場所を強調
     var cellStatus = this.checkAndFlip(y, x, this.nextColor, false);
-    var cellColor = cellStatus ? '#006400' : 'green';
+    var cellColor = cellStatus ? '#228b22' : '#006400';
     cell.setAttribute('style', 'background-color: ' + cellColor);
 
     return cellStatus;
